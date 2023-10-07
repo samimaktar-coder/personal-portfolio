@@ -72,7 +72,7 @@ function Contact() {
             <p>Send Message</p>
           </button>
           <div className={`alert ${showAlert ? "show" : ""}`}>
-            ✅ Email sent Successfully.
+            ✅ Message sent successfully.
           </div>
         </form>
       </div>

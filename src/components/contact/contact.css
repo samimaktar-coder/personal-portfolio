@@ -107,22 +107,22 @@
 
 .alert {
     background-color: #4c4c4c44;
-    border: 2px solid rgb(2, 205, 2);
-    color: rgb(3, 191, 3);
-    padding: .6rem 1.5rem;
-    font-size: 1rem;
+    border: 2px solid rgb(1, 228, 1);
+    color: rgb(14, 241, 14);
+    padding: .8rem 1.5rem;
+    font-size: 1.1rem;
     width: 100%;
     margin-top: .5rem;
     position: absolute;
-    bottom: -4rem;
+    bottom: -5rem;
     border-radius: .5rem;
-    opacity: 0;
+    /* opacity: 0; */
     pointer-events: none;
     transition: .3s;
 }
 
 .alert.show {
-    bottom: -3rem;
+    bottom: -3.7rem;
     opacity: 1;
 }
 
