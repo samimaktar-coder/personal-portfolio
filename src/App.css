@@ -1,0 +1,79 @@
+:root {
+    --color-primary: hsla(158, 23%, 18%, 1);
+    --color-light: hsla(0, 0%, 100%, 1);
+    --color-backdrop: hsla(158, 23%, 18%, .7);
+    --color-gradient: linear-gradient(to bottom, hsla(158, 23%, 18%, 0) 0%, hsla(158, 23%, 18%, .013) 9.7%, hsla(158, 23%, 18%, .049) 18.1%, hsla(158, 23%, 18%, .104) 25.5%, hsla(158, 23%, 18%, .175) 31.9%, hsla(158, 23%, 18%, .259) 37.7%, hsla(158, 23%, 18%, .352) 43%, hsla(158, 23%, 18%, .45) 47.9%, hsla(158, 23%, 18%, .55) 52.8%, hsla(158, 23%, 18%, .648) 57.7%, hsla(158, 23%, 18%, .741) 63%, hsla(158, 23%, 18%, .825) 68.7%, hsla(158, 23%, 18%, .896) 75%, hsla(158, 23%, 18%, .951) 82.2%, hsla(158, 23%, 18%, .987) 90.5%, hsl(158, 23%, 18%) 100%);
+    --color-primary-accent: hsla(160, 52%, 71%, 1);
+    --color-text-primary: hsla(160, 52%, 71%, 1);
+    --color-text-secondary: hsla(159, 42%, 88%, 1);
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: var(--color-primary);
+    color: var(--color-text-secondary);
+    font-family: gt-font;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+img,
+svg {
+    width: 100%;
+}
+
+::selection {
+    background-color: rgb(67, 230, 176);
+    color: rgba(35, 56, 49);
+}
+
+/*!========= Reusable css classes ========== */
+.heading {
+    font-size: 5rem;
+    margin-bottom: 2rem;
+    font-family: acorn;
+    color: var(--color-text-primary);
+    z-index: 5;
+    /* text-shadow: 0 1px 0 #38594c, 0 2px 0 #38594c, 0 3px 0 #38594c, 0 4px 0 #38594c, 0 5px 0 #38594c, 0 6px 0 #38594c, 0 7px 0 #38594c, 0 8px 0 #38594c, 0 9px 0 #38594c, 0 50px 30px rgba(0, 0, 0, 0.3); */
+}
+
+.container {
+    padding-block: 4rem;
+    padding-inline: 6rem;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media screen and (max-width:670px) {
+    .container {
+        padding-inline: 4rem;
+    }
+}
+
+@media screen and (max-width:490px) {
+    .container {
+        padding-inline: 1rem;
+    }
+}
+
+@media screen and (max-width:385px) {
+    .container {
+        padding-inline: .8rem;
+    }
+}

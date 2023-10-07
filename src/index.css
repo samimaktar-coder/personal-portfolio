@@ -1,0 +1,19 @@
+@font-face {
+    font-family: acorn;
+    src: url(./fonts/acorn.ttf);
+}
+
+@font-face {
+    font-family: gt-font;
+    src: url(./fonts/gt.ttf);
+}
+
+::-webkit-scrollbar {
+    background-color: transparent;
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.742);
+    border-radius: .4rem;
+}
