@@ -106,13 +106,21 @@ function Contact() {
           >
             <FaInstagram />
           </a>
-          <a href='mailto:hi.samimaktar@gmail.com' target='_blank'>
+          <a
+            href='mailto:hi.samimaktar@gmail.com'
+            aria-label='Email Id'
+            target='_blank'
+          >
             <HiMail />
           </a>
         </div>
         <p className='copyright'>
           Designed & Built by{" "}
-          <a href='https://github.com/samimaktar-coder' target='_blank'>
+          <a
+            href='https://github.com/samimaktar-coder'
+            aria-label='Github'
+            target='_blank'
+          >
             Samim Aktar
           </a>
         </p>
