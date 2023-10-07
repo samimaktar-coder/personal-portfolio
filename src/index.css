@@ -1,11 +1,13 @@
 @font-face {
     font-family: acorn;
-    src: url(./fonts/acorn.ttf);
+    src: url(./img/acorn.ttf);
+    font-display: swap;
 }
 
 @font-face {
     font-family: gt-font;
-    src: url(./fonts/gt.ttf);
+    src: url(./img/gt.ttf);
+    font-display: swap;
 }
 
 ::-webkit-scrollbar {

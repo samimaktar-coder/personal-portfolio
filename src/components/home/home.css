@@ -232,6 +232,11 @@
         top: -4rem;
         right: -1rem;
     }
+
+    .wrapper {
+        animation: none;
+        background-position: 60%;
+    }
 }
 
 @media screen and (max-width:500px) {
