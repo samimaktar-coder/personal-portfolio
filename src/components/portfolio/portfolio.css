@@ -43,6 +43,7 @@
 
 .portfolio-img img {
     min-height: 100%;
+    width: 100%;
 }
 
 .tech-stack-list {

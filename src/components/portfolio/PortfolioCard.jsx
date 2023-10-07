@@ -3,7 +3,8 @@ import { AiFillGithub } from "react-icons/ai";
 import { BiLinkExternal } from "react-icons/bi";
 
 function PortfolioCard({ itemData }) {
-  const { img, title, description, liveLink, repoLink, techStack } = itemData;
+  const { img, title, description, liveLink, repoLink, techStack, ariaLabel } =
+    itemData;
 
   return (
     <div className='portfolio-card'>
@@ -21,10 +22,10 @@ function PortfolioCard({ itemData }) {
         <h2>{title}</h2>
         <p>{description}</p>
         <div className='portfolio-icons'>
-          <a target='_blank' href={repoLink}>
+          <a target='_blank' aria-label={ariaLabel} href={repoLink}>
             <AiFillGithub />
           </a>
-          <a target='_blank' href={liveLink}>
+          <a target='_blank' aria-label={ariaLabel} href={liveLink}>
             <BiLinkExternal />
           </a>
         </div>

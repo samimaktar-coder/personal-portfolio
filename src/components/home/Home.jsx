@@ -10,14 +10,12 @@ function Home() {
       <div className='home__content'>
         <div className='home__heading'>
           <h1>Hi! I'm Samim.</h1>
-          <h1>
-            A Tech Enthusiast.
-          </h1>
+          <h1>A Tech Enthusiast.</h1>
           <img src={star} alt='star-img' className='star_1' />
           <img src={star} alt='star-img' className='star_2' />
         </div>
         <p>A passionate Frontend Developer and aspiring Fullstack Developer.</p>
-        <a href='#about' className='arrow-container'>
+        <a href='#about' aria-label='About Section' className='arrow-container'>
           <div className='arrow-2'>
             <IoIosArrowDown />
           </div>
