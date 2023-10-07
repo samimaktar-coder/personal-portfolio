@@ -108,17 +108,17 @@ function Contact() {
           </a>
           <a
             href='mailto:hi.samimaktar@gmail.com'
-            aria-label='Email Id'
+            aria-label='Mail Id'
             target='_blank'
           >
             <HiMail />
           </a>
         </div>
         <p className='copyright'>
-          Designed & Built by{" "}
+          Designed & Built by
           <a
             href='https://github.com/samimaktar-coder'
-            aria-label='Github'
+            aria-label='Github link of Samim Aktar'
             target='_blank'
           >
             Samim Aktar
