@@ -70,13 +70,13 @@
 
 .home__heading .star_1 {
     top: -3rem;
-    right: -3rem;
+    right: -5rem;
     animation: clockwise 8s infinite linear;
 }
 
 .home__heading .star_2 {
     bottom: -3.5rem;
-    left: -6rem;
+    left: -8rem;
     animation: anticlockwise 8s infinite linear;
 }
 
@@ -230,7 +230,7 @@
 
     .home__heading .star_1 {
         top: -4rem;
-        right: -1rem;
+        right: -4rem;
     }
 
     .wrapper {
@@ -255,12 +255,6 @@
     .home__content p {
         font-size: 1rem;
     }
-
-    .home__heading .star_1 {
-        width: 4.5rem;
-        top: -3rem;
-        right: 2rem;
-    }
 }
 
 @media screen and (max-width:460px) {
@@ -271,8 +265,8 @@
 
     .home__heading .star_1 {
         width: 3.5rem;
-        top: -2.5rem;
-        right: -.5rem;
+        top: -3rem;
+        right: -3rem;
     }
 }
 
