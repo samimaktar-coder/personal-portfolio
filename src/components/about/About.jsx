@@ -18,18 +18,10 @@ function About() {
             </span>
             <span>
               I have honed my skills through countless hours of practice, trial
-              and error, and a determination to overcome challenges, constantly
-              pushing myself to deliver high-quality solutions. My hunger for
-              knowledge extends beyond frontend development, as I'm currently
-              immersing myself in the world of backend development. Now I am
-              learning Next JS and Node JS.
+              and error, and a determination to overcome challenges. I'm currently
+              immersing myself in the world of backend development.
             </span>
-            <span>
-              If you seek a dependable and proficient frontend developer to help
-              manifest your web project, your search ends here. My unwavering
-              commitment lies in empowering clients to reach their target and
-              providing exceptional service every step of the way.
-            </span>
+            <span>Keep learning and growing.</span>
           </p>
         </div>
         <div className='about__skills'>
