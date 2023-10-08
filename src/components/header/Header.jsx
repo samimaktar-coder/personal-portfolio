@@ -5,26 +5,22 @@ import useScrollPosition from "../../hooks/useScrollPosition";
 function Header() {
   const scrollPostion = useScrollPosition();
 
-  const [lastScrollPosition, setLastScrollPosition] = useState(0);
-  const [showNavbar, setShowNavbar] = useState(true);
+  // const [lastScrollPosition, setLastScrollPosition] = useState(0);
+  // const [showNavbar, setShowNavbar] = useState(true);
   const [activeLink, setActiveLink] = useState("home");
 
-  useEffect(() => {
-    if (scrollPostion <= lastScrollPosition) {
-      setShowNavbar(false);
-    } else {
-      setShowNavbar(true);
-    }
-    setLastScrollPosition(scrollPostion);
-  }, [scrollPostion]);
+  // useEffect(() => {
+  //   if (scrollPostion <= lastScrollPosition) {
+  //     setShowNavbar(false);
+  //   } else {
+  //     setShowNavbar(true);
+  //   }
+  //   setLastScrollPosition(scrollPostion);
+  // }, [scrollPostion]);
 
   return (
     <div>
-      <nav
-        className={`navbar ${scrollPostion > 200 ? "scroll" : ""} ${
-          showNavbar ? "" : "active"
-        }`}
-      >
+      <nav className={`navbar active ${scrollPostion > 200 ? "scroll" : ""}`}>
         <ul className='nav_list'>
           <li>
             <a

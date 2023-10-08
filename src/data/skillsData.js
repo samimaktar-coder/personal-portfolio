@@ -1,4 +1,4 @@
-import { html, css, javascript, tailwind, react, redux, git, github, vscode } from '../img';
+import { html, css, javascript, tailwind, react, redux, git, github } from '../img';
 
 
 export const skillsData = [
@@ -41,10 +41,5 @@ export const skillsData = [
         id: 108,
         img: github,
         title: 'Github'
-    },
-    {
-        id: 109,
-        img: vscode,
-        title: 'VS Code'
     },
 ];

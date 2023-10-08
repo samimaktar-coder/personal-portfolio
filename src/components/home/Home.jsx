@@ -10,7 +10,7 @@ function Home() {
       <div className='home__content'>
         <div className='home__heading'>
           <h1>Hi! I'm Samim.</h1>
-          <h1>A Tech Enthusiast.</h1>
+          <h1>I Write Code.</h1>
           <img src={star} alt='star-img' className='star_1' />
           <img src={star} alt='star-img' className='star_2' />
         </div>

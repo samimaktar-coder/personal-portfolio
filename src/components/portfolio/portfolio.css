@@ -1,12 +1,14 @@
 .portfolio__content {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    display: flex;
     align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 3rem 2rem;
 }
 
 .portfolio-card {
     position: relative;
+    width: 350px;
     gap: 2rem;
     padding: 1rem;
     padding-bottom: 2rem;
@@ -166,4 +168,10 @@
     box-shadow: 5px 5px 3.2px rgb(21, 114, 80);
     color: var(--color-primary);
     background: var(--color-text-secondary);
+}
+
+@media screen and (max-width:390px) {
+    .portfolio-card {
+        width: 100%;
+    }
 }

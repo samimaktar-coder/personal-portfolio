@@ -14,16 +14,15 @@ function About() {
             <span>
               I am a frontend developer dedicated to crafting visually
               captivating and responsive web applications. My tech stack
-              includes React, TailwindCSS and my appetite for skill growth and
-              learning has no limits.
+              includes React, Redux Toolkit, TailwindCSS.
             </span>
             <span>
               I have honed my skills through countless hours of practice, trial
               and error, and a determination to overcome challenges, constantly
               pushing myself to deliver high-quality solutions. My hunger for
               knowledge extends beyond frontend development, as I'm currently
-              immersing myself in the world of backend development, eagerly
-              exploring new frameworks and languages.
+              immersing myself in the world of backend development. Now I am
+              learning Next JS and Node JS.
             </span>
             <span>
               If you seek a dependable and proficient frontend developer to help

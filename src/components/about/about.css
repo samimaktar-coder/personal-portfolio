@@ -1,7 +1,7 @@
 .about__content {
     display: flex;
-    justify-content: space-between;
-    gap: 2rem;
+    justify-content: center;
+    gap: 3rem;
 }
 
 .about__info,
@@ -28,7 +28,6 @@
     grid-template-columns: repeat(5, 5rem);
     grid-auto-rows: 5rem;
     gap: 2rem;
-    justify-content: space-between;
 }
 
 .about__skill {
@@ -151,14 +150,13 @@
     }
 
     .about__skills_grid {
-        /* justify-content: start; */
+        justify-content: space-between;
         grid-template-columns: repeat(auto-fit, 5rem);
     }
 }
 
 @media screen and (max-width:670px) {
     .about {
-
         padding-inline: 2rem;
     }
 
