@@ -25,7 +25,7 @@ function About() {
           </p>
         </div>
         <div className='about__skills'>
-          <h2>Language and Tools</h2>
+          <h2>My Tech Stack</h2>
 
           <div className='about__skills_grid'>
             {skillsData.map((skill) => (
