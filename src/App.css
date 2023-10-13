@@ -33,6 +33,7 @@ a {
 img,
 svg {
     width: 100%;
+    pointer-events: none;
 }
 
 ::selection {

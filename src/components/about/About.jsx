@@ -14,7 +14,7 @@ function About() {
             <span>
               I am a frontend developer dedicated to crafting visually
               captivating and responsive web applications. My tech stack
-              includes React, Redux Toolkit, TailwindCSS.
+              includes React, Redux Toolkit, Tailwind CSS.
             </span>
             <span>
               I have honed my skills through countless hours of practice, trial
