@@ -18,8 +18,8 @@ function About() {
             </span>
             <span>
               I have honed my skills through countless hours of practice, trial
-              and error, and a determination to overcome challenges. I'm currently
-              immersing myself in the world of backend development.
+              and error, and a determination to overcome challenges. I'm
+              currently immersing myself in the world of backend development.
             </span>
             <span>Keep learning and growing.</span>
           </p>
@@ -39,11 +39,14 @@ function About() {
           </div>
         </div>
       </div>
-      {/* <a href='#'>
+      <a
+        href='https://drive.google.com/file/d/1NkXQDQIu82ulKK0xeMqPEyPidgpDwwI6/view?usp=drive_link'
+        target='_blank'
+      >
         <button className='about-button'>
           <BsFileEarmarkPdf /> Download Resume
         </button>
-      </a> */}
+      </a>
     </div>
   );
 }
