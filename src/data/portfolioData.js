@@ -64,4 +64,45 @@ export const portfolioData = [
         repoLink: 'https://github.com/samimaktar-coder/Awwwards-website',
         ariaLabel:'Awwwards Website Clone'
     },
+    {
+        id: 111,
+        img: realEstate,
+        title: 'Real Estate Website',
+        description: 'This is a simple Real Estate website with a beautiful UI. This website also has a carousel and accordion feature.',
+        techStack: ['HTML', 'CSS', 'React JS'],
+        liveLink: 'https://samim-real-estate-website.netlify.app/',
+        repoLink: 'https://github.com/samimaktar-coder/Real-estate-website',
+        ariaLabel: 'Real Estate Website'
+    },
+
+    {
+        id: 108,
+        img: productVideo,
+        title: 'Product Video website',
+        description: 'This This website is built using Tailwind CSS with a beautiful UI and gradient effect.',
+        techStack: ['HTML', 'JS', 'Tailwind CSS'],
+        liveLink: 'https://productvoids-example.netlify.app/',
+        repoLink: 'https://github.com/samimaktar-coder/Product-void-website',
+        ariaLabel: 'Product Video website'
+    },
+    {
+        id: 104,
+        img: gluWebsite,
+        title: 'Glu Website',
+        description: 'This website has a beautiful UI. This website also has multiple pages.',
+        techStack: ['HTML', 'CSS', 'JS'],
+        liveLink: 'https://glu-sc.netlify.app/',
+        repoLink: 'https://github.com/samimaktar-coder/Glu-website',
+        ariaLabel: 'Glu Website'
+    },
+    {
+        id: 112,
+        img: shoeWebsite,
+        title: 'Shoe Landing Page',
+        description: 'This is a landing page for Shoe with a beautiful UI. This website also has an image and theme-changing feature.',
+        techStack: ['HTML', 'CSS', 'JS'],
+        liveLink: 'https://shoevibe.netlify.app/',
+        repoLink: 'https://github.com/samimaktar-coder/Shoe-website',
+        ariaLabel: 'Shoe Landing Page'
+    },
 ];
